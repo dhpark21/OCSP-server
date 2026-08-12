@@ -1275,7 +1275,7 @@ dependencies = [
 
 [[package]]
 name = "ocsp-server"
-version = "0.7.3"
+version = "0.7.4"
 dependencies = [
  "async-trait",
  "chrono",
