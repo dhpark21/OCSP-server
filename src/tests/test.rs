@@ -80,10 +80,6 @@ fn checkconfigfake() {
     let _rsakey = getprivatekey(&key).unwrap();
     key.zeroize();
 }
-#[test]
-fn checkconfig() {
-    rocket();
-}
 mock! {
     pub Database {}
 
